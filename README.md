@@ -34,20 +34,29 @@ Un widget de escritorio elegante, minimalista y de solo lectura para **KDE Plasm
 
 ## 🛠️ Instalación
 
-### Método 1: Manual (Recomendado para desarrollo)
+### Método 1: Git (Recomendado)
 
-1. **Clona el repositorio en tu carpeta de widgets:**
+1. **Clona el repositorio con el nombre correcto de la carpeta:**
    ```bash
-   git clone https://github.com/zan101x/com.zan101.calendar_ical.git ~/.local/share/plasma/plasmoids/com.zan101.calendar_ical
+   git clone https://github.com/zan101x/Google-Calendar-ICal-Widget.git ~/.local/share/plasma/plasmoids/com.zan101.calendar_ical
    ```
 
-2. **Refresca Plasma o reinicia sesión:**
+2. **Refresca Plasma:**
    ```bash
    plasmashell --replace &
    ```
 
-3. **Añade el widget:**
-   Haz clic derecho en tu escritorio o panel -> **Añadir widgets...** -> Busca **"Google Calendar ICal"**.
+### Método 2: Descarga Directa (ZIP)
+
+1. Descarga el archivo `.zip` desde el botón **Code -> Download ZIP**.
+2. Descomprime el contenido.
+3. Renombra la carpeta extraída a `com.zan101.calendar_ical`.
+4. Mueve esa carpeta a:
+   `~/.local/share/plasma/plasmoids/`
+5. Reinicia sesión o refresca Plasma.
+
+> [!IMPORTANT]
+> Es vital que la carpeta de instalación se llame exactamente `com.zan101.calendar_ical`, de lo contrario KDE Plasma no reconocerá el widget.
 
 ---
 
