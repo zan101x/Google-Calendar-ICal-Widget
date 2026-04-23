@@ -1,0 +1,4 @@
+# Ignore images folder on export (zip/tar)
+images/ export-ignore
+README.md export-ignore
+.gitattributes export-ignore

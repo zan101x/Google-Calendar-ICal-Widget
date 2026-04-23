@@ -1,0 +1,27 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "zan101"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Widget de solo lectura para mostrar eventos de Google Calendar mediante ICS",
+        "EnabledByDefault": true,
+        "Icon": "office-calendar",
+        "Id": "com.zan101.calendar_ical",
+        "License": "GPL-2.0+",
+        "Name": "Google Calendar ICal",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.2",
+        "Website": ""
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-DefaultWidth": 400,
+    "X-Plasma-DefaultHeight": 550
+}
